@@ -4,18 +4,15 @@
   padding: 0;
 }
 
-.debug [class*="col-"]{
-  border: 1px solid black;
-  height: 100px;
-}
+
 
 .container > .col-12{
   background-color: pink;
   border: 2px solid black;
   width: calc(100% / 12);
   text-align: center;
-  height: 250px;
-  line-height: 250px;
+  height: 200px;
+  line-height: 200px;
 
 }
 
@@ -23,8 +20,8 @@
   background-color: pink;
   border: 2px solid black;
   text-align: center;
-  height: 100px;
-  line-height: 100px;
+  height: 200px;
+  line-height: 200px;
   width: 100%;
 
 }
@@ -33,6 +30,17 @@
   background-color: pink;
   border: 2px solid black;
   text-align: center;
-  height: 100px;
-  line-height: 100px;
+  height: 200px;
+  line-height: 200px;
+
+}
+
+
+.container .col-6, .col-2{
+  background-color: pink;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 200px;
+  height: 200px;
+
 }
