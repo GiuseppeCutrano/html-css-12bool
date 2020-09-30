@@ -51,5 +51,6 @@
 .nested > .col-2, .nested > .col-8, .nested > .col-6
 {
   border: 2px solid white;
+  background-color: #ed269a;
 
 }
